@@ -115,17 +115,18 @@ body {
     text-shadow: 2px 2px #000;
 }
 .sitems img {
-    flex-basis: 70px;
-    height: 140px;
+    display: flex;
+    flex-flow: column-reverse;
+    max-width: 230px;
+    padding-left: 3px;
 }
 figcaption {
+    display: flex;
+    justify-content: center;
     margin-top: 10px;
     text-align: center;
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
-}
-.sitems img {
-    padding-left: 10px;
 }
 /* About NamueneTec CEO */
 .aboutceo {
