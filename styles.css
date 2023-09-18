@@ -206,8 +206,10 @@ figcaption {
 /* Footer */
 .footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10px;
     min-width: 1240px;
     height: 80px;
     font-weight: 900;
